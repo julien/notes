@@ -242,7 +242,7 @@ jdbc.default.driverClassName=com.mysql.jdbc.Driver
 
 ## Make sure this matches the database name you created
 ## and your MySQL credentials!
-jdbc.default.url=jdbc:mysql://localhost/lportal_master?useUnicode=true&characterEncoding=UTF-8
+jdbc.default.url=jdbc:mysql://localhost/lportal_master?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
 jdbc.default.username=YOUR_MYSQL_USERNAME
 jdbc.default.password=YOUR_MYSQL_PASSWORD
 
