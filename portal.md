@@ -325,13 +325,13 @@ browser.launcher.url=
 
 To the `portal-ext.properties` file your created.
 
-### Optional: Speed up compilation by cloning [liferay-binaries-cache-2017](https://github.com/liferay/liferay-binaries-cache-2017)
+### Optional: Speed up compilation by cloning [liferay-binaries-cache-2020](https://github.com/liferay/liferay-binaries-cache-2020)
 
 This repo contains pre-built binaries of the third-party dependencies of the portal. If you clone it as a peer of your `bundles` directory, it will speed up compilation:
 
 ```sh
 cd ..
-git clone https://github.com/liferay/liferay-binaries-cache-2017
+git clone https://github.com/liferay/liferay-binaries-cache-2020
 ```
 
 After this, your directory structure should look like:
@@ -345,7 +345,7 @@ After this, your directory structure should look like:
  |  |- portal-ext.properties
  |  |- ...
  |
- |- liferay-binaries-cache-2017
+ |- liferay-binaries-cache-2020
  |  |
  |  |- ...
  |
